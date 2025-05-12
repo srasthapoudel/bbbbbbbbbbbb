@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>(your title)</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f0f0f0;
+        }
+
+        h1, h2 {
+            color: darkblue;
+        }
+
+        .box {
+            background-color: white;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+    <h1 style="text-align: center;">C Programming Reference</h1>
+
+    <p style="text-align: center;">
+        <a href="#definitions">Definitions</a> | 
+        <a href="#examples">Examples</a> | 
+        <a href="#feedback">Feedback</a>
+    </p>
+
+    <div class="box" id="definitions">
+        <h2>Basic Definitions</h2>
+        <p><b>Variable:</b> Used to store information (like numbers or text).</p>
+        <p><b>Data Type:</b> Tells what kind of data a variable stores (like int, char).</p>
+        <p><b>Loop:</b> Repeats a set of instructions (like for loop or while loop).</p>
+    </div>
+
+    <div class="box" id="examples">
+        <h2>Example Programs</h2>
+
+        <h3>Hello World</h3>
+        <pre>
+#include &lt;stdio.h&gt;
+
+int main() {
+    printf("Hello, World!");
+    return 0;
+}
+        </pre>
+        <p>This program prints "Hello, World!" on the screen.</p>
+
+        <h3>Add Two Numbers</h3>
+        <pre>
+#include &lt;stdio.h&gt;
+
+int main() {
+    int a = 10, b = 20;
+    int sum = a + b;
+    printf("Sum = %d", sum);
+    return 0;
+}
+        </pre>
+        <p>This program adds 10 and 20, and shows the result.</p>
+    </div>
+
+    <div class="box" id="feedback">
+        <h2>Feedback Form</h2>
+        <form>
+            Name: <br>
+            <input type="text"><br><br>
+
+            Email: <br>
+            <input type="email"><br><br>
+
+            Message: <br>
+            <textarea rows="4" cols="40"></textarea><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <p style="text-align: center;">&copy; 2025 - Made (by your name)</p>
+
+</body>
+</html>
